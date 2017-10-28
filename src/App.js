@@ -33,7 +33,7 @@ const stories = [
   {
     img: './poster1.jpg',
     title: 'His Heart Will Not Go On',
-    desc: ' "OMG he actually dies!!!"" ',
+    desc: ' "OMG he actually dies!!!" ',
     authImg: './pamela.png',
     authName: 'Pamela',
     estTime: '11 min'
