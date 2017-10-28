@@ -43,12 +43,14 @@ const stories = [
 const App = () => {
   return (
     <div className='App'>
-      <Header headerText = "Header 1"/>
+      <Header />
       <Banner />
       <Stories  storiesTitle="Today's Top Stories"
                 stories={stories} />
-      // {/* add another Stories component with storiesTitle 'Pop Culture', and just pass down the same stories array as the above Stories component (already created but will need some editing) */}
-      {/* add a Footer Component (you will need to create this component in the provided Footer.js file) */}
+      <Stories  storiesTitle="Pop Culture"
+                stories={stories} />
+       {/* add another Stories component with storiesTitle 'Pop Culture', and just pass down the same stories array as the above Stories component (already created but will need some editing) */}
+      <Footer className='Footer' />
     </div>
   );
 }
