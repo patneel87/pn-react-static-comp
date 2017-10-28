@@ -7,33 +7,33 @@ import './App.css';
 
 const stories = [
   {
-    img: './story1.jpg',
-    title: 'Winning at Fonts',
-    desc: 'or, Why you should care about typography',
+    img: './poster4.jpg',
+    title: 'Wheres the Pants?!?!',
+    desc: ' "No pants is no bueno, needs some fine tuning" ',
     authImg: './louisa.png',
     authName: 'Louisa',
     estTime: '2 min'
   },
   {
-    img: './story2.jpg',
-    title: 'Hoodlums: a dissertation',
-    desc: 'Examining villains in modern storytelling',
+    img: './poster3.jpg',
+    title: 'To Much Madness in Mad Max',
+    desc: ' "Not many mustaches :( " ',
     authImg: './alternate.png',
     authName: 'Nathaniel',
     estTime: '10 min'
   },
   {
-    img: './story3.jpg',
-    title: 'Halloween is a year-round sport',
-    desc: 'Those who say otherwise just aren\'t trying hard enough.',
+    img: './poster2.jpg',
+    title: 'Meh',
+    desc: ' "I could kick Russel Crowes ass" ',
     authImg: './leta.png',
     authName: 'Leta',
     estTime: '8 min'
   },
   {
-    img: './story4.jpg',
-    title: 'How to Improve Learning and Classroom Engagement with Humor',
-    desc: 'Okay, so first of all, everybody knows fart jokes are hilarious ...',
+    img: './poster1.jpg',
+    title: 'His Heart Will Not Go On',
+    desc: ' "OMG he actually dies!!!"" ',
     authImg: './pamela.png',
     authName: 'Pamela',
     estTime: '11 min'
@@ -45,12 +45,11 @@ const App = () => {
     <div className='App'>
       <Header />
       <Banner />
-      <Stories  storiesTitle="Today's Top Stories"
+      <Stories  storiesTitle="Movie Reviews"
                 stories={stories} />
       <Stories  storiesTitle="Pop Culture"
                 stories={stories} />
-       {/* add another Stories component with storiesTitle 'Pop Culture', and just pass down the same stories array as the above Stories component (already created but will need some editing) */}
-      <Footer className='Footer' />
+      <Footer />
     </div>
   );
 }

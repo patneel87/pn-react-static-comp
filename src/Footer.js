@@ -1,10 +1,10 @@
 import React from 'react';
 import './Footer.css';
 
-const Footer = (props) => {
+const Footer = () => {
   return (
     <div className='Footer'>
-
+      <div>@2017</div>
     </div>
     );
 }
