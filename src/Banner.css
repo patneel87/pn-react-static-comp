@@ -50,3 +50,13 @@
   }
 
 }
+
+@media screen and (max-width: 400px) {
+  .Banner h2 {
+    font-size: 30px;
+  }
+
+  .Banner p {
+    font-size: 20px;
+  }
+}
