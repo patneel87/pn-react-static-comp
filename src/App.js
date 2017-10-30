@@ -25,7 +25,7 @@ const stories = [
   {
     img: './poster2.jpg',
     title: 'Meh',
-    desc: ' "I could kick Russel Crowes ass" ',
+    desc: ' "I could kick Russel Crowe\'s ass" ',
     authImg: './leta.png',
     authName: 'Leta',
     estTime: '8 min'
